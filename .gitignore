@@ -1,0 +1,51 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Eclipse / IntelliJ / VS Code
+*.iml
+*.ipr
+*.iws
+.idea/
+*.vscode/
+*.classpath
+*.project
+.settings/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs & Temp files
+logs/
+*.log
+*.tmp
+*.bak
+
+# Lombok generated files (optional)
+/lombok.config
+
+# Spring Boot
+spring.log
+
+# Environment & Credentials (recommended)
+.env
+*.env
+application-local.yml
+application-dev.yml
+application-test.yml
+
+# H2 Database files (if using file mode)
+*.mv.db
+*.h2.db
+
+# Other
+*.dump

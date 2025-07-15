@@ -1,0 +1,19 @@
+{
+  "prompts": [
+    {
+      "name": "IndianConstitutionPrompt",
+      "description": "QA prompt for Indian Constitution RAG",
+      "template": "Your task is to answer the questions about Indian Constitution. Use the DOCUMENTS section to provide accurate answers. If unsure or if the answer isn't found in the DOCUMENTS section, simply state that you don't know the answer.\n\nQUESTION:\n{input}\n\nDOCUMENTS:\n{documents}"
+    },
+    {
+      "name": "GeneralKnowledgePrompt",
+      "description": "General Knowledge QA prompt",
+      "template": "Answer the following general knowledge question using DOCUMENTS provided. If you don't know, say you don't know.\n\nQUESTION:\n{input}\n\nDOCUMENTS:\n{documents}"
+    },
+    {
+      "name": "SimpleSummaryPrompt",
+      "description": "Summarize the given text",
+      "template": "Please summarize the following text:\n\n{text}"
+    }
+  ]
+}
