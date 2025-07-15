@@ -41,7 +41,7 @@ It allows dynamic prompt management, document ingestion (e.g., Indian Constituti
 ### 2️⃣ Clone and Build
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:zeeshanzsh/spring-ai-pgVector.git
 cd Spring-PGVector
 mvn clean install
 ````
