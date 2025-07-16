@@ -4,6 +4,8 @@ This project is a **Spring Boot Retrieval-Augmented Generation (RAG)** system us
 It allows dynamic prompt management, document ingestion (e.g., Indian Constitution), and semantic search with vector embeddings.
 
 ---
+## Architectural Flow Daigram
+<img width="3525" height="2424" alt="Spring-AI-PGVector" src="https://github.com/user-attachments/assets/253502ce-b818-4c73-946c-3ae4d21876c9" />
 
 ## Features
 
